@@ -10,7 +10,7 @@ The bot will create a reaction-based poll every Friday at 12 AM UTC and announce
 
 Server members can nominate one other user for member of the week by using `/nominate` followed by the user's name.
 
-Any nominations after the poll is created will not go towards the poll. Nominations are cleared once the winner is announced. The bot's reaction to the poll will not be counted towards the final vote, and ties will be announced with no winner.
+Any nominations after the poll is created will be ignored. Nominations are cleared once the winner is announced. The bot's reaction to the poll will not be counted towards the final vote, and ties will be announced with no winner.
 
 The bot requires the `SEND MESSAGES`, `READ MESSAGE HISTORY`, and `ADD REACTIONS` permissions in the channel specified in the `.env` file.
 
